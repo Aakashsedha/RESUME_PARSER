@@ -47,7 +47,8 @@ Make sure to document each step clearly, including any additional context or req
 import anthropic
 from PyPDF2 import PdfReader
 
-client = anthropic.Anthropic(api_key="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")
+#HIDING MY API FOR SECURITY REASONS
+client = anthropic.Anthropic(api_key="#")
 
 def read_pdf(file):
     reader = PdfReader(file)
